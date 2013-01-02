@@ -4,15 +4,21 @@ manifest
 Instruction to build jellybean for cubieboard
 
 1. Download the source code 
-  $git clone https://github.com/cubieboard/manifest.git -b jb-cubieboard
+
+  $repo init -u https://github.com/cubieboard/manifest.git -b jb-cubieboard
+  
   $repo sync
 
 2. Start to build
+
   $source build/envsetup.sh
+  
   $lunch 4
+  
   $make
 
 3. Generated firmware image
+
   $tools/pack-cm.sh
 
 4. Flash to cubieboard
