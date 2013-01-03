@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <remote  name="aosp"
-           fetch="https://android.googlesource.com" />
-
-  <remote  name="github"
-           fetch=".."
-           review="review.cyanogenmod.org" />
-
-  <remote  name="private"
-           fetch="ssh://git@github.com" />
-
-  <remote name="matson"
-	  fetch="git://github.com/matson-hall" />
+  <remote name="aosp" fetch="https://android.googlesource.com" />
+  <remote name="github" fetch=".." review="review.cyanogenmod.org" />
+  <remote name="private" fetch="ssh://git@github.com" />
+  <remote name="matson" fetch="https://github.com/matson-hall" />
 
   <default revision="refs/heads/jellybean"
            remote="github"
@@ -208,7 +199,7 @@
   <project path="external/cedarx" name="android_external_cedarx" remote="matson" revision="jb-cubieboard" />
   <project path="device/allwinner/common" name="android_device_allwinner_common" remote="matson" revision="jb-cubieboard" />
   <project path="frameworks/av" name="android_frameworks_av" remote="matson" revision="jb-cubieboard" />
-  <project path="kernel/allwinner/common" name="kernel/allwinner/common" remote="private" revision="jb-cubieboard" />
+  <project path="kernel/allwinner/common" name="linux-allwinner" remote="matson" revision="jb-cubieboard" />
   <project path="tools" name="allwinner-pack-tools" remote="matson" revision="jb-cubieboard" />
   <!-- matson end -->
 
