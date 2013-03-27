@@ -199,7 +199,7 @@
   <project path="external/cedarx" name="android_external_cedarx" remote="matson" revision="jb-cubieboard" />
   <project path="device/allwinner/common" name="android_device_allwinner_common" remote="matson" revision="jb-cubieboard" />
   <project path="frameworks/av" name="android_frameworks_av" remote="matson" revision="jb-cubieboard" />
-  <project path="kernel/allwinner/common" name="linux-allwinner" remote="matson" revision="jb-cubieboard" />
+  <project path="kernel/allwinner/common" name="linux-sunxi" remote="matson" revision="jb-cubieboard" />
   <project path="tools" name="allwinner-pack-tools" remote="matson" revision="jb-cubieboard" />
   <!-- matson end -->
 
